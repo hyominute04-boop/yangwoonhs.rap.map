@@ -838,8 +838,8 @@ var VIEW_KEY = "labInventory_view_v2";
    "anon public" 키를 발급받습니다. 아래 두 줄을 그 값으로 바꿔주세요.
    (이 키는 브라우저에 그대로 노출되는 공개 키이며, 보안은 schema.sql의
    RLS 규칙으로 처리됩니다 - 비밀 키가 아니니 걱정하지 않으셔도 돼요.) */
-var SUPABASE_URL = "https://rprppcwzfnscfyqyioyj.supabase.co/rest/v1/";
-var SUPABASE_ANON_KEY = "__SUPABASE_ANON_KEY__";
+var SUPABASE_URL = "https://rprppcwzfnscfyqyioyj.supabase.co";
+var SUPABASE_ANON_KEY = "sb_publishable_qKP9-dddSi4HBmMKn54sLA_hipVO4RG";
 var sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 /* JS(카멜케이스) 함수 이름 -> Postgres RPC 함수 이름/매개변수 매핑
